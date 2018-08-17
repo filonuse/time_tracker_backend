@@ -1,0 +1,35 @@
+.thead_dark{
+    color: whitesmoke;
+    background: #2b323a;
+}
+
+.expansion_indicator{
+    width: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.expansible_container{
+    position: relative;
+    padding: 0;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.expansible_container tbody,
+.expansible_container tr,
+.expansible_container td{
+    padding: 0;
+}
+
+.expanded_table{
+    display: block;
+    margin-bottom: 0;
+}
+

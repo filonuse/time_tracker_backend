@@ -1,0 +1,10 @@
+node_modules/
+.vs/
+BLL/obj/BLL.csproj.nuget.g.props
+BLL/obj/
+Core/obj/
+DaL/obj/
+Tests/bin/
+Tests/obj/
+TimeTraker/obj/
+.idea/
